@@ -1,0 +1,78 @@
+body, html {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  cursor: default;
+}
+img{
+	float: left;
+	width: 30px;
+}
+
+.puzzle{
+	padding: 20px;
+	margin: auto;
+	width: 344px;
+
+}
+.interface{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	color: #B3B3B3;
+}
+.steps, .time{
+	float: left;
+	margin-left: 10px;
+	color: #808080;
+	font-size: 26px;
+}
+.steps{
+	width: 30px;
+}
+.game div{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	line-height: 80px; 
+	vertical-align: middle;
+	background-color: #4A90E2;
+	margin: 2px;
+	text-align: center;
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #4A90E2;
+	border-radius: 10px;
+	color: white;
+}
+
+
+.block_16{
+	visibility: hidden;
+}
+.newGame, .pressWin{
+	padding: 15px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 30px;
+	border: 2px solid #50E3C2;
+	border-radius: 5px;
+}
+.newGame{
+	margin-top: 50px;
+	color: #4A4A4A;
+	background-color: #50E3C2;
+}
+.newGame:hover {
+   background-color: #00e2ad;
+}
+.newGame:active, .pressWin:active {
+  transform: translateY(4px);
+}
+.pressWin{
+	color: #50E3C2;
+}
+.pressWin:hover{
+	background-color: #efefef;
+}
