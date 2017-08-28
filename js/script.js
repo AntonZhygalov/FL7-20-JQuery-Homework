@@ -98,7 +98,7 @@ function win(){
     if(arrayWin.toString()===gameWin.toString()){
         clearInterval(newTimer);
         $('.game').off('click', swapPlaces);
-        alert('Congratulation You Win!!!');
+        setTimeout(() => alert('Congratulation You Win!!!'),100);
     }
 };
 
